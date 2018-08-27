@@ -1,0 +1,13 @@
+name: cups-rollo
+version: 0.1.0
+
+authors:
+  - Kevin Chiu <chiukk1@gmail.com>
+
+targets:
+  cups-rollo:
+    main: src/cups-rollo.cr
+
+crystal: 0.26.0
+
+license: MIT

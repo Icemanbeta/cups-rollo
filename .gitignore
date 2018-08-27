@@ -1,3 +1,10 @@
+# Crystal
+/docs/
+/bin/
+/.shards/
+*.dwarf
+
+# CMake
 CMakeCache.txt
 CMakeFiles
 CMakeScripts

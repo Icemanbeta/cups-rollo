@@ -1,0 +1,7 @@
+PoDoFoConfig.cmake
+build/
+cmake_uninstall.cmake
+libpodofo-0.pc
+podofo_config.h
+src/libpodofo.so
+src/libpodofo.so*?
