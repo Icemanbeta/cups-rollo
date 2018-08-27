@@ -5,6 +5,7 @@
 *.dwarf
 
 # CMake
+/build/
 CMakeCache.txt
 CMakeFiles
 CMakeScripts

@@ -5,3 +5,4 @@ libpodofo-0.pc
 podofo_config.h
 src/libpodofo.so
 src/libpodofo.so*?
+*.o
