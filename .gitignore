@@ -1,5 +1,7 @@
 # Crystal
 /docs/
+/lib/*
+!/lib/podofo/
 /bin/
 /.shards/
 *.dwarf

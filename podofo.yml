@@ -1,0 +1,23 @@
+module: Podofo
+library: "%/lib/podofo/vendor/src/libpodofo.so"
+
+<<: config/processors.yml
+<<: config/paths.yml
+<<: config/classes.yml
+<<: config/enums.yml
+<<: config/macros.yml
+<<: config/functions.yml
+<<: config/containers.yml
+<<: config/types.yml
+
+parser:
+  if_TARGET_TRIPLE_is_:
+    flags: [ "-x", "c++", "-std=c++11", "-fPIC" ]
+  else:
+    flags: [ "-x", "c++", "-std=c++11", "-fPIC", "-target", "{TARGET_TRIPLE}" ]
+  files:
+    - ./podofo/podofo.h
+  includes:
+    - "/media/www/prototypes/cups-rollo/lib/vendor/podofo/podofo/"
+    - "/media/www/prototypes/cups-rollo/lib/vendor/podofo/src/"
+    - "/media/www/prototypes/cups-rollo/lib/vendor/podofo/tools/"

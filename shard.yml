@@ -4,6 +4,10 @@ version: 0.1.0
 authors:
   - Kevin Chiu <chiukk1@gmail.com>
 
+dependencies:
+  bindgen:
+    github: Papierkorb/bindgen
+
 targets:
   cups-rollo:
     main: src/cups-rollo.cr

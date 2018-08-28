@@ -4,7 +4,17 @@ TODO: Write a description here
 
 ## Installation
 
-TODO: Write install instructions here
+```
+sudo apt install -y \
+  clang-4.0 \
+  libclang-4.0-dev \
+  libgc-dev \
+  libncurses-dev \
+  libpcre3-dev \
+  libyaml-dev \
+  llvm-4.0-dev \
+  zlib1g-dev
+```
 
 ## Usage
 

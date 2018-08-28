@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  bindgen:
+    github: Papierkorb/bindgen
+    version: 0.6.2
+
+  toka:
+    github: Papierkorb/toka
+    version: 0.1.2
+
